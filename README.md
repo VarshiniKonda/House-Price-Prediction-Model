@@ -1,10 +1,11 @@
-
 # Week 2 - Machine Learning: Regression and Classification
 
 ## Project Overview
-This project focuses on supervised machine learning techniques, including regression and classification. It covers data preprocessing, exploratory data analysis, model training, evaluation, and model comparison.
+
+This project focuses on Supervised Machine Learning using Regression and Classification algorithms. It includes data preprocessing, model training, evaluation, and model comparison.
 
 ## Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -14,31 +15,32 @@ This project focuses on supervised machine learning techniques, including regres
 - Joblib
 
 ## Datasets
-1. **Housing Prices Dataset:** Used to predict house prices.
-2. **Titanic Dataset:** Used to predict passenger survival.
 
-## Tasks Completed
+- **Housing Prices Dataset:** Used for house price prediction.
+- **Titanic Dataset:** Used for passenger survival prediction.
 
-### 1. Housing Price Prediction
-- Performed exploratory data analysis.
-- Applied Linear Regression.
-- Evaluated the model using Mean Squared Error and R² score.
-- Compared actual and predicted house prices.
-- Saved the trained model.
+## Models Implemented
 
-**Results:**
-- R² Score: 65.29%
+### Regression
+- Linear Regression
+
+### Classification
+- Logistic Regression
+- Decision Tree
+- K-Nearest Neighbors (KNN)
+- Random Forest
+
+## Model Results
+
+**House Price Prediction:**
 - Model: Linear Regression
+- R² Score: 65.29%
 
-### 2. Titanic Survival Prediction
-- Applied Logistic Regression.
-- Generated a confusion matrix and classification report.
-- Evaluated model accuracy.
+**Titanic Survival Prediction:**
+- Model: Logistic Regression
+- Accuracy: 80.45%
 
-**Accuracy:** 80.45%
-
-### 3. Classification Model Comparison
-Compared three classification algorithms:
+**Classification Model Comparison:**
 
 | Model | Accuracy |
 |---|---:|
@@ -46,15 +48,11 @@ Compared three classification algorithms:
 | Scaled KNN | 81.56% |
 | Random Forest | 82.12% |
 
-**Best test accuracy:** Random Forest - 82.12%
-
-### 4. Decision Tree Hyperparameter Tuning
-Tested different values of `max_depth` to observe their effect on model performance.
+Best test accuracy: Random Forest - 82.12%.
 
 ## Project Structure
 
 ```text
-Week2_Machine_Learning/
 ├── dataset/
 ├── notebooks/
 ├── models/
@@ -66,28 +64,40 @@ Week2_Machine_Learning/
 
 ## How to Run
 
-1. Clone this repository.
-2. Create and activate a virtual environment.
+1. Clone the repository:
+
+```bash
+git clone https://github.com/VarshiniKonda/House-Price-Prediction-Model.git
+```
+
+2. Open the project folder:
+
+```bash
+cd House-Price-Prediction-Model
+```
+
 3. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Run the Python scripts from the project root directory. Example:
+4. Run a Python script:
 
 ```bash
 python notebooks/linear_regression_model.py
-python notebooks/titanic_logistic_regression.py
-python notebooks/random_forest_model.py
 ```
 
 ## Learning Outcomes
+
 - Understanding supervised machine learning.
-- Performing data preprocessing and exploratory data analysis.
+- Data preprocessing and exploratory data analysis.
 - Building regression and classification models.
-- Evaluating models using appropriate metrics.
-- Comparing algorithms and tuning hyperparameters.
+- Evaluating and comparing model performance.
+- Hyperparameter tuning.
 
 ## Author
-Varshini
+
+**Varshini Konda**
+
+GitHub: https://github.com/VarshiniKonda
